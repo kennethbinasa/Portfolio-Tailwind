@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.7 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.9 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -1756,19 +1756,19 @@ video {
 }
 
 .bg-hero {
-  background-image: url('/images/hero.jpg');
+  background-image: url('/dist/images/hero.jpg');
 }
 
 .bg-hero-white {
-  background-image: url('/images/hero_white.jpg');
+  background-image: url('/dist/images/hero_white.jpg');
 }
 
 .bg-pattern {
-  background-image: url('/images/pattern.svg');
+  background-image: url('/dist/images/pattern.svg');
 }
 
 .bg-pattern_white {
-  background-image: url('/images/pattern_white.svg');
+  background-image: url('/dist/images/pattern_white.svg');
 }
 
 .from-bright-gray {
