@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/*.{html,js,css}"],
+  content: ["./dist/*.{html,js,css}", "./node_modules/flowbite/**/*.js"],
   theme: { 
     extend: {
       letterSpacing: {
@@ -40,7 +40,9 @@ module.exports = {
         "2xl": "1124px",
       }
     },
-  plugins: [],
+  plugins: [
+        require('flowbite/plugin')
+    ],
 }
 }
 }
