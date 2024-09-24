@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/*.{html,js,css}", "./node_modules/flowbite/**/*.js"],
+  content: ["./dist/*.{html,js,css}", 
+    "./node_modules/flowbite/**/*.js",
+    "./resources/**/*.blade.php",
+    "./resources/**/*.js",
+    "./resources/**/*.vue",
+  ],
   theme: { 
     extend: {
       letterSpacing: {
