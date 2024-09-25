@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/*.{html,js,css}", 
+  darkMode: ["class"],
+  content: [
+    "./dist/*.{html,js,css}", 
+    "./*.{html,js,css}", 
     "./node_modules/flowbite/**/*.js",
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
@@ -46,7 +49,7 @@ module.exports = {
       }
     },
   plugins: [
-        require('flowbite/plugin')
+        require('flowbite/plugin'),
     ],
 }
 }
